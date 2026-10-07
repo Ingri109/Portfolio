@@ -71,30 +71,37 @@ export function ProjectCarousel({ images }: ProjectCarouselProps) {
         </motion.div>
       </AnimatePresence>
 
-      {/* Dark overlay for better integration with the UI layout */}
-      <div className="absolute inset-0 bg-black/40 group-hover/carousel:bg-black/10 transition-colors duration-500 z-10 pointer-events-none" />
-      <div className="absolute inset-0 bg-gradient-to-br from-[#BA4242]/5 to-transparent opacity-50 group-hover/carousel:opacity-100 transition-opacity duration-500 z-10 pointer-events-none" />
+      {/* Remove dark overlay that requires hover */}
+      {/* Just a very subtle gradient for text/icon contrast if needed, but keeping it light */}
+      <div className="absolute inset-0 bg-gradient-to-br from-[#BA4242]/5 to-transparent opacity-100 z-10 pointer-events-none" />
+
+      {/* Slide counter specifically for mobile */}
+      {images.length > 1 && (
+        <div className="absolute top-3 right-3 z-30 md:hidden bg-black/60 text-white/90 text-[10px] font-mono px-2.5 py-1 rounded-full backdrop-blur-sm border border-white/10 shadow-lg">
+          {currentIndex + 1} / {images.length}
+        </div>
+      )}
 
       {/* Click zones */}
       <div
-        className="absolute left-0 top-0 bottom-0 w-1/2 z-20 cursor-pointer flex items-center justify-start pl-4 opacity-0 group-hover/carousel:opacity-100 transition-opacity duration-300"
+        className="absolute left-0 top-0 bottom-0 w-1/3 md:w-1/2 z-20 cursor-pointer flex items-center justify-start pl-2 md:pl-4 opacity-100 md:opacity-0 md:group-hover/carousel:opacity-100 transition-opacity duration-300"
         onClick={handleLeftClick}
       >
-        <div className="w-8 h-8 rounded-full bg-black/50 border border-white/10 flex items-center justify-center text-white/70 hover:text-white hover:bg-black/70 backdrop-blur-md transition-all">
+        <div className="w-8 h-8 rounded-full bg-black/50 border border-white/20 flex items-center justify-center text-white/90 md:text-white/70 md:hover:text-white hover:bg-black/70 backdrop-blur-md transition-all shadow-[0_0_15px_rgba(0,0,0,0.5)]">
           <Icon icon="bx:chevron-left" width="24" height="24" />
         </div>
       </div>
       <div
-        className="absolute right-0 top-0 bottom-0 w-1/2 z-20 cursor-pointer flex items-center justify-end pr-4 opacity-0 group-hover/carousel:opacity-100 transition-opacity duration-300"
+        className="absolute right-0 top-0 bottom-0 w-1/3 md:w-1/2 z-20 cursor-pointer flex items-center justify-end pr-2 md:pr-4 opacity-100 md:opacity-0 md:group-hover/carousel:opacity-100 transition-opacity duration-300"
         onClick={handleRightClick}
       >
-        <div className="w-8 h-8 rounded-full bg-black/50 border border-white/10 flex items-center justify-center text-white/70 hover:text-white hover:bg-black/70 backdrop-blur-md transition-all">
+        <div className="w-8 h-8 rounded-full bg-black/50 border border-white/20 flex items-center justify-center text-white/90 md:text-white/70 md:hover:text-white hover:bg-black/70 backdrop-blur-md transition-all shadow-[0_0_15px_rgba(0,0,0,0.5)]">
           <Icon icon="bx:chevron-right" width="24" height="24" />
         </div>
       </div>
 
       {/* Indicators */}
-      <div className="absolute bottom-4 left-0 right-0 flex justify-center gap-2 z-30 opacity-0 group-hover/carousel:opacity-100 transition-opacity duration-300">
+      <div className="absolute bottom-4 left-0 right-0 hidden md:flex justify-center gap-2 z-30 opacity-0 group-hover/carousel:opacity-100 transition-opacity duration-300">
         {images.map((_, i) => (
           <div
             key={i}

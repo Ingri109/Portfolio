@@ -25,9 +25,9 @@ const TECH_CATEGORIES = [
 export function TechStack() {
   const t = useTranslations("HR.TechStack");
   return (
-    <section  className="py-32 relative z-10">
-      <div className="flex flex-col gap-16">
-        <div className="mb-16">
+    <section  className="py-16 md:py-24 lg:py-32 relative z-10">
+      <div className="flex flex-col gap-12 md:gap-16">
+        <div className="mb-10 md:mb-16">
           <p className="text-gray-500 text-xs tracking-widest uppercase mb-4 font-mono">— 01 / CAPABILITIES</p>
           <h2 className="text-3xl sm:text-5xl font-bold">
             {t("title")}<span className="text-[#BA4242]">.</span>

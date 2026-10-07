@@ -13,9 +13,9 @@ export function Services() {
   }>;
 
   return (
-    <section className="py-24 relative" >
+    <section className="py-16 md:py-24 relative" >
       <div className="container px-4 sm:px-6 mx-auto">
-        <div className="mb-16">
+        <div className="mb-10 md:mb-16">
           <p className="text-gray-500 text-xs tracking-widest uppercase mb-4 font-mono">— 01 / SERVICES</p>
           <h2 className="text-3xl sm:text-5xl font-bold">
             {t('title')}<span className="text-[#BA4242]">.</span>

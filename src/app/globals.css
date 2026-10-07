@@ -26,6 +26,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Improve typography and text wrapping globally */
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+p, span, li, a {
+  text-wrap: pretty;
+  /* Allow logical breaking for long words like URLs, but avoid breaking small words */
+  overflow-wrap: break-word;
+}
+
+/* Provide hyphenation for better reading on mobile (especially uk/pl languages) */
+p, span, li, div {
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 6px;

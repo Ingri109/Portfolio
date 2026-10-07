@@ -42,15 +42,15 @@ export function Experience() {
   };
 
   return (
-    <section  className="py-32 relative z-10">
-      <div className="mb-20">
+    <section  className="py-16 md:py-24 lg:py-32 relative z-10">
+      <div className="mb-12 md:mb-20">
         <p className="text-gray-500 text-xs tracking-widest uppercase mb-4 font-mono">— {t('subtitle')}</p>
         <h2 className="text-3xl sm:text-5xl font-bold">
           {t('title')}<span className="text-[#BA4242]">.</span>
         </h2>
       </div>
 
-      <div className="flex flex-col gap-12 relative">
+      <div className="flex flex-col gap-8 md:gap-12 relative">
         {/* Glowing vertical line for desktop */}
         <div className="hidden md:block absolute left-[300px] top-6 bottom-0 w-px bg-gradient-to-b from-[#BA4242]/30 via-white/10 to-transparent" />
 

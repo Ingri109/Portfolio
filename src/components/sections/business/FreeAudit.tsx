@@ -19,16 +19,20 @@ export function FreeAudit() {
     },
     {
       name: "Email",
-      value: "orest.muzyka.it@gmail.com",
+      value: (
+        <span className="break-all sm:break-normal">
+          orest.muzyka.it@<span className="sm:hidden"><br/></span>gmail.com
+        </span>
+      ),
       link: "mailto:orest.muzyka.it@gmail.com",
       icon: "ph:envelope-simple-light"
     }
   ];
 
   return (
-    <section className="py-32 relative border-t border-white/5 " id="free-audit">
+    <section className="py-16 md:py-24 lg:py-32 relative border-t border-white/5 " id="free-audit">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-[#BA4242]/10 via-transparent to-transparent pointer-events-none" />
-      <div className="container px-4 sm:px-6 mx-auto relative z-10 flex flex-col lg:flex-row justify-between items-start gap-16 lg:gap-24">
+      <div className="container px-4 sm:px-6 mx-auto relative z-10 flex flex-col lg:flex-row justify-between items-start gap-12 lg:gap-24">
 
         {/* Left Side: Text */}
         <div className="lg:w-1/2 flex flex-col items-start text-left">
@@ -57,7 +61,7 @@ export function FreeAudit() {
               </div>
               <div>
                 <p className="text-gray-500 font-mono text-sm uppercase tracking-wider mb-1">{contact.name}</p>
-                <p className="text-white font-medium text-lg group-hover:text-[#BA4242] transition-colors">{contact.value}</p>
+                <p className="text-white font-medium text-base sm:text-lg group-hover:text-[#BA4242] transition-colors">{contact.value}</p>
               </div>
               <Icon icon="ph:arrow-up-right-light" className="ml-auto text-2xl text-gray-600 group-hover:text-[#BA4242] transition-colors" />
             </a>

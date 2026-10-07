@@ -9,9 +9,9 @@ export function Workflow() {
   }>;
 
   return (
-    <section className="py-24 relative overflow-hidden" >
+    <section className="py-16 md:py-24 relative overflow-hidden" >
       <div className="container px-4 sm:px-6 mx-auto relative z-10">
-        <div className="mb-20">
+        <div className="mb-12 md:mb-20">
           <p className="text-gray-500 text-xs tracking-widest uppercase mb-4 font-mono">— 02 / WORKFLOW</p>
           <h2 className="text-3xl sm:text-5xl font-bold">
             {t('title')}<span className="text-[#BA4242]">.</span>

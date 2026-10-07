@@ -10,12 +10,10 @@ export function BusinessHero() {
   const ctaLink = businessData.hero.cta.link; // Still keeping the link from data
 
   return (
-    <section className="min-h-screen flex items-center justify-center pt-24 pb-12 relative overflow-hidden">
-      {/* Background Glows */}
-      <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#BA4242]/20 rounded-full blur-[120px] pointer-events-none" />
-      <div className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-[#BA4242]/10 rounded-full blur-[100px] pointer-events-none" />
-
-      <div className="container px-4 sm:px-6 mx-auto relative z-10 flex flex-col items-center text-center">
+    <section className="min-h-screen flex items-center justify-center pt-16 pb-8 md:pt-24 md:pb-12 relative overflow-hidden">
+      {/* Background Glows (Even smaller on mobile to prevent clipping at the edges) */}
+      <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[150px] h-[150px] sm:w-[300px] sm:h-[300px] md:w-[600px] md:h-[600px] bg-[#BA4242]/30 md:bg-[#BA4242]/20 rounded-full blur-[50px] sm:blur-[80px] md:blur-[120px] pointer-events-none" />
+      <div className="container px-2 sm:px-6 mx-auto relative z-10 flex flex-col items-center text-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -31,7 +29,7 @@ export function BusinessHero() {
             {t('title').replace('.', '')}<span className="text-[#BA4242]">.</span>
           </h1>
 
-          <p className="text-gray-400 text-lg sm:text-xl max-w-2xl mb-12 leading-relaxed mx-auto">
+          <p className="text-gray-400 text-lg sm:text-xl max-w-2xl mb-8 md:mb-12 leading-relaxed mx-auto">
             {t('subtitle')}
           </p>
 

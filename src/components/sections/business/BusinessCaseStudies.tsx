@@ -23,16 +23,16 @@ export function BusinessCaseStudies() {
   }>;
 
   return (
-    <section className="py-32 relative " >
+    <section className="py-16 md:py-24 lg:py-32 relative " >
       <div className="container px-4 sm:px-6 mx-auto">
-        <div className="mb-20">
+        <div className="mb-12 md:mb-20">
           <p className="text-gray-500 text-xs tracking-widest uppercase mb-4 font-mono">— 03 / CASE STUDIES</p>
           <h2 className="text-3xl sm:text-5xl font-bold">
             {t('title')}<span className="text-[#BA4242]">.</span>
           </h2>
         </div>
 
-        <div className="flex flex-col gap-32">
+        <div className="flex flex-col gap-16 md:gap-32">
           {caseStudies.map((study, idx) => {
             const isEven = idx % 2 === 0;
             const locStudy = items.find(i => i.id === study.id) || study;

@@ -11,12 +11,12 @@ export function Hero() {
   const t = useTranslations("HR.Hero");
 
   return (
-    <section className="min-h-[90vh] flex flex-col justify-center relative pt-20 pb-16">
-      {/* Background colored glows */}
-      <div className="absolute top-1/2 right-1/4 -translate-y-1/2 w-[500px] h-[500px] bg-[#BA4242]/10 rounded-full blur-[120px] pointer-events-none" />
-      <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-red-900/5 rounded-full blur-[100px] pointer-events-none" />
+    <section className="min-h-[90vh] flex flex-col justify-center relative pt-16 pb-12 md:pt-20 md:pb-16">
+      {/* Background colored glows (smaller on mobile to prevent clipping) */}
+      <div className="absolute top-1/2 right-1/4 -translate-y-1/2 w-[150px] h-[150px] sm:w-[300px] sm:h-[300px] md:w-[500px] md:h-[500px] bg-[#BA4242]/20 md:bg-[#BA4242]/10 rounded-full blur-[50px] sm:blur-[80px] md:blur-[120px] pointer-events-none" />
+      <div className="absolute bottom-0 left-0 w-[120px] h-[120px] sm:w-[250px] sm:h-[250px] md:w-[400px] md:h-[400px] bg-red-900/10 md:bg-red-900/5 rounded-full blur-[40px] sm:blur-[60px] md:blur-[100px] pointer-events-none" />
 
-      <div className="w-full relative z-10 flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-20">
+      <div className="w-full relative z-10 flex flex-col lg:flex-row items-center justify-between gap-8 md:gap-12 lg:gap-20">
 
         {/* Left Side text */}
         <motion.div
