@@ -119,8 +119,8 @@ export const hrData = {
   },
   languages: [
     { name: "Ukrainian", level: "Native", icon: "🇺🇦" },
-    { name: "English", level: "Intermediate", icon: "🇬🇧" },
-    { name: "Polish", level: "Advanced", icon: "🇵🇱" },
+    { name: "English", level: "Intermediate (B1)", icon: "🇬🇧" },
+    { name: "Polish", level: "Advanced (C1)", icon: "🇵🇱" },
   ],
   contact: {
     linkedin: "https://www.linkedin.com/in/orest-muzyka-fullstackdev",
