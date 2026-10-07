@@ -29,7 +29,7 @@ export function EducationLanguages() {
           transition={{ duration: 0.6, ease: "easeOut" }}
           className="md:w-1/2 group"
         >
-          <div className="p-10 rounded-none border border-white/10 bg-white/[0.03] hover:bg-white/[0.05] hover:border-[#BA4242]/30 transition-all duration-300 h-full relative overflow-hidden">
+          <div className="p-6 md:p-10 rounded-none border border-white/10 bg-white/[0.03] hover:bg-white/[0.05] hover:border-[#BA4242]/30 transition-all duration-300 h-full relative overflow-hidden">
             <div className="absolute -right-8 -top-8 opacity-5 group-hover:opacity-10 group-hover:text-[#BA4242] transition-colors duration-500 pointer-events-none">
               <Icon icon="bx:book-reader" width="160" height="160" />
             </div>
@@ -45,12 +45,12 @@ export function EducationLanguages() {
               </h4>
               <p className="text-gray-400 leading-relaxed">{education.university}</p>
 
-              <div className="flex flex-wrap items-center gap-4 text-sm font-mono mt-6">
-                <span className="px-3 py-1.5 rounded-none bg-black/50 border border-white/10 text-gray-400">
+              <div className="flex flex-wrap items-center gap-2 md:gap-4 text-xs md:text-sm font-mono mt-6">
+                <span className="px-2 py-1 md:px-3 md:py-1.5 rounded-none bg-black/50 border border-white/10 text-gray-400">
                   {education.dates}
                 </span>
-                <span className="px-3 py-1.5 rounded-none border border-[#BA4242]/30 bg-[#BA4242]/5 text-white font-semibold flex items-center gap-2 ">
-                  <Icon icon="bx:award" width="16" height="16" className="text-[#BA4242]" />
+                <span className="px-2 py-1 md:px-3 md:py-1.5 rounded-none border border-[#BA4242]/30 bg-[#BA4242]/5 text-white font-semibold flex items-center gap-1.5 md:gap-2 ">
+                  <Icon icon="bx:award" className="text-[#BA4242] w-3 h-3 md:w-4 md:h-4" />
                   {education.gpaLabel} {education.gpa}
                 </span>
               </div>
@@ -66,7 +66,7 @@ export function EducationLanguages() {
           transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
           className="md:w-1/2 group"
         >
-          <div className="p-10 rounded-none border border-white/10 bg-white/[0.03] hover:bg-white/[0.05] hover:border-[#BA4242]/30 transition-all duration-300 h-full relative overflow-hidden">
+          <div className="p-6 md:p-10 rounded-none border border-white/10 bg-white/[0.03] hover:bg-white/[0.05] hover:border-[#BA4242]/30 transition-all duration-300 h-full relative overflow-hidden">
             <div className="absolute -right-8 -top-8 opacity-5 group-hover:opacity-10 group-hover:text-[#BA4242] transition-colors duration-500 pointer-events-none">
               <Icon icon="bx:world" width="160" height="160" />
             </div>
@@ -76,16 +76,16 @@ export function EducationLanguages() {
               {t('languagesTitle')}
             </h3>
 
-            <ul className="flex flex-col gap-6 relative z-10">
+            <ul className="flex flex-col gap-3 md:gap-6 relative z-10">
               {languages.map((lang, idx) => {
                 const locLang = languagesTranslations[idx] || lang;
                 return (
-                  <li key={lang.name} className="flex items-center justify-between group/item p-4 rounded-none border border-white/10 bg-black/30 hover:border-white/20 hover:bg-black/50 transition-colors">
-                    <div className="flex items-center gap-4">
-                      <span className="text-3xl drop-shadow-md group-hover/item:scale-110 transition-transform">{lang.icon}</span>
-                      <span className="font-semibold text-white text-lg">{locLang.name}</span>
+                  <li key={lang.name} className="flex items-center justify-between group/item p-3 md:p-4 rounded-none border border-white/10 bg-black/30 hover:border-white/20 hover:bg-black/50 transition-colors">
+                    <div className="flex items-center gap-3 md:gap-4 flex-1 min-w-0">
+                      <span className="text-2xl md:text-3xl drop-shadow-md group-hover/item:scale-110 transition-transform shrink-0">{lang.icon}</span>
+                      <span className="font-semibold text-white text-sm sm:text-base md:text-lg truncate pr-2">{locLang.name}</span>
                     </div>
-                    <span className="text-[#BA4242] text-sm font-mono px-4 py-1.5 bg-[#BA4242]/10 rounded-none border border-[#BA4242]/20">
+                    <span className="text-[#BA4242] text-[10px] sm:text-xs md:text-sm font-mono px-2 py-1 md:px-4 md:py-1.5 bg-[#BA4242]/10 rounded-none border border-[#BA4242]/20 shrink-0 text-center">
                       {locLang.level}
                     </span>
                   </li>
