@@ -1,0 +1,236 @@
+{
+  "Navigation": {
+    "techStack": "Tech Stack",
+    "experience": "Experience",
+    "projects": "Projects",
+    "forBusiness": "For Business",
+    "services": "Services",
+    "workflow": "Workflow",
+    "cases": "Cases",
+    "forEmployers": "For Employers",
+    "available": "Available",
+    "contact": "Contact"
+  },
+  "HR": {
+    "Hero": {
+      "greeting": "👋 Hi, I'm Orest Muzyka",
+      "name": "Orest Muzyka",
+      "role": "Full-Stack Developer",
+      "specialization": "Specializing in React / Next.js & C# .NET",
+      "location": "BASED IN POLAND | OPEN TO RELOCATION",
+      "buildScalable": "I build scalable",
+      "webApplications": "web applications",
+      "checkOutWork": "Check out my work",
+      "imA": "I'm a",
+      "scroll": "Scroll"
+    },
+    "TechStack": {
+      "title": "Tech Stack"
+    },
+    "Experience": {
+      "title": "Work Experience",
+      "subtitle": "02 / EXPERIENCE",
+      "items": [
+        {
+          "id": "udtech",
+          "position": "Full Stack Developer | UDTECH",
+          "dates": "05.2025 - 05.2026",
+          "description": "Built and maintained full-stack web features using React, Next.js, Node.js and C#, delivering stable, responsive user interfaces. Optimized image loading and AI workflows, improving page load speed by 20% and doubling AI response performance (100% faster). Redesigned search logic to expand the website's target audience reach by around 40%.",
+          "metrics": [
+            "20%",
+            "100% faster",
+            "40%"
+          ]
+        }
+      ]
+    },
+    "Projects": {
+      "title": "Selected Projects",
+      "subtitle": "03 / PROJECTS",
+      "githubSource": "Source Code",
+      "liveDemo": "Live Demo",
+      "items": [
+        {
+          "id": "your-love",
+          "title": "Your Love",
+          "type": "Full-Stack Diploma Project",
+          "description": "An application designed to improve communication and strengthen relationships between partners, especially for those in long-distance relationships or lacking quality time together. The project solves the problem of misunderstandings by creating a private digital space for the couple.",
+          "features": [
+            "Interactivity: mood tracking, partner well-being, and a shared \"Wish list\".",
+            "Real-time: WebSockets for seamless real-time synchronization.",
+            "Security: login via Google and Discord OAuth."
+          ]
+        },
+        {
+          "id": "movie-ticket-booking",
+          "title": "Movie Ticket Booking Platform",
+          "type": "Commercial / Portfolio Project",
+          "description": "A modern alternative to outdated cinema platforms with illogical UX. The main goal: to make the user journey from searching for a movie to getting a ticket as fast, pleasant, and intuitive as possible.",
+          "features": [
+            "Thoughtful UX/UI: dynamic routing and instant navigation without reloading.",
+            "Reliability: client and server form validation.",
+            "High-performance architecture: C# microservices, RabbitMQ, and Redis for handling high loads."
+          ]
+        },
+        {
+          "id": "game-hub",
+          "title": "Game HUB",
+          "type": "Full-Stack Application (Released V1.0)",
+          "description": "Game HUB is a social platform for gamers designed to make cooperative gameplay even more dynamic and fun. The project solves the problem of time synchronization between players and adds a fun element of gamification to regular gaming sessions.",
+          "features": [
+            "Schedule synchronization: Interactive calendar to view other players' availability.",
+            "Lobby gamification: Issuing unique rewards after a game (\"Best Sniper\", \"MVP\", \"Joker\").",
+            "Discord ecosystem: Discord authorization. Future bot integration for automatic session creation and reminders."
+          ]
+        }
+      ]
+    },
+    "EducationLanguages": {
+      "educationTitle": "Education",
+      "languagesTitle": "Languages",
+      "subtitle": "04 / EDUCATION & LANGUAGES",
+      "education": {
+        "university": "University College Of Enterprise And Administration (WSPA), Lublin",
+        "degree": "B.Eng. in Computer Science",
+        "dates": "Oct 2022 - Aug 2026",
+        "gpaLabel": "GPA:",
+        "gpa": "4.71"
+      },
+      "languagesItems": [
+        {
+          "name": "Ukrainian",
+          "level": "Native"
+        },
+        {
+          "name": "English",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Polish",
+          "level": "Advanced"
+        }
+      ]
+    },
+    "Contact": {
+      "title": "Contact",
+      "cta": "Let's build something amazing together",
+      "description": "Whether it's a full-time role, a freelance project, or just a technical chat, feel free to reach out.",
+      "rights": "All rights reserved."
+    }
+  },
+  "Business": {
+    "Hero": {
+      "title": "Web solutions that work for your business",
+      "subtitle": "I build fast landing pages, online stores, and custom CRM systems that automate sales and generate leads 24/7.",
+      "cta": {
+        "text": "Discuss project"
+      },
+      "availableBadge": "Available for new projects",
+      "whatIOffer": "What I offer"
+    },
+    "Services": {
+      "title": "Services",
+      "items": [
+        {
+          "id": "landing",
+          "title": "Landing Page (Single-page website)",
+          "forWho": "Service industry, experts, local businesses. Your 24/7 online manager.",
+          "features": "Flawless mobile version (90% of traffic), instant loading, logical structure, leads to Telegram/Email.",
+          "price": "from $100",
+          "forWhoLabel": "For who:",
+          "featuresLabel": "Features:"
+        },
+        {
+          "id": "ecommerce",
+          "title": "Online Store (E-commerce)",
+          "forWho": "Selling goods, digital products, and online courses.",
+          "features": "Convenient catalog with filters, checkout without extra steps, payment gateway integration (LiqPay, Stripe), user-friendly admin panel.",
+          "price": "from $300",
+          "forWhoLabel": "For who:",
+          "featuresLabel": "Features:"
+        },
+        {
+          "id": "custom",
+          "title": "Custom Development (Complex web services)",
+          "forWho": "Non-standard business models and process automation.",
+          "features": "Booking systems, personal dashboards and CRM, API integrations, strong data security.",
+          "price": "from $500",
+          "forWhoLabel": "For who:",
+          "featuresLabel": "Features:"
+        }
+      ],
+      "priceLabel": "Price:",
+      "disclaimer": "Final price is adjusted after discussing all details and functionality."
+    },
+    "Workflow": {
+      "title": "Workflow",
+      "stepLabel": "Step",
+      "items": [
+        {
+          "step": 1,
+          "title": "Briefing and Estimation",
+          "description": "Short call/chat. I study the task, propose solutions, and set deadlines and costs."
+        },
+        {
+          "step": 2,
+          "title": "Prototype and Design",
+          "description": "I create the structure and visuals. You see how everything will look before writing code."
+        },
+        {
+          "step": 3,
+          "title": "Development and Testing",
+          "description": "I write clean code, configure services (payments, CRM), and test on all devices."
+        },
+        {
+          "step": 4,
+          "title": "Launch and Support",
+          "description": "I migrate the site to your domain, teach you how to use it, and provide support."
+        }
+      ]
+    },
+    "CaseStudies": {
+      "title": "Case Studies",
+      "links": {
+        "live": "Live Project"
+      },
+      "items": [
+        {
+          "id": "booking",
+          "title": "MovieTicket online booking and sales platform",
+          "task": "Create a service for quick event search and ticket purchasing without lag.",
+          "solution": "Intuitive interface, 3-step checkout, system handles high loads.",
+          "tags": [
+            "UI/UX Design",
+            "Online Payments",
+            "High Speed",
+            "Automation"
+          ]
+        },
+        {
+          "id": "community",
+          "title": "GameHUB interactive community platform",
+          "task": "Tool for planning mutual events and retaining user attention.",
+          "solution": "Interactive calendar, gamification system (rewards), fast registration via third-party services.",
+          "tags": [
+            "Personal accounts",
+            "Gamification",
+            "API Integration",
+            "Databases"
+          ]
+        }
+      ],
+      "taskLabel": "Task:",
+      "solutionLabel": "Solution:"
+    },
+    "FreeAudit": {
+      "title": "Ready to scale your business?",
+      "description": "Request a free audit of your current website or discuss the development of a new project. We'll find weak points and develop a plan to turn them into real profit.",
+      "cta": {
+        "text": "Get website audit"
+      },
+      "subtitle": "04 / FREE AUDIT & CONTACT",
+      "contactTitle": "Contact me:",
+      "telegramText": "Write on Telegram"
+    }
+  }
+}

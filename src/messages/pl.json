@@ -1,0 +1,236 @@
+{
+  "Navigation": {
+    "techStack": "Technologie",
+    "experience": "Doświadczenie",
+    "projects": "Projekty",
+    "forBusiness": "Dla Biznesu",
+    "services": "Usługi",
+    "workflow": "Proces",
+    "cases": "Klienci",
+    "forEmployers": "Dla Pracodawców",
+    "available": "Dostępny",
+    "contact": "Kontakt"
+  },
+  "HR": {
+    "Hero": {
+      "greeting": "👋 Cześć, jestem Orest Muzyka",
+      "name": "Orest Muzyka",
+      "role": "Full-Stack Developer",
+      "specialization": "Specjalizuję się w React / Next.js i C# .NET",
+      "location": "MIESZKAM W POLSCE | OTWARTY NA RELOKACJĘ",
+      "buildScalable": "Tworzę skalowalne",
+      "webApplications": "aplikacje internetowe",
+      "checkOutWork": "Sprawdź moje projekty",
+      "imA": "Jestem",
+      "scroll": "Przewiń"
+    },
+    "TechStack": {
+      "title": "Stos Technologiczny"
+    },
+    "Experience": {
+      "title": "Doświadczenie Zawodowe",
+      "subtitle": "02 / DOŚWIADCZENIE",
+      "items": [
+        {
+          "id": "udtech",
+          "position": "Full Stack Developer | UDTECH",
+          "dates": "05.2025 - 05.2026",
+          "description": "Tworzenie i ulepszanie funkcji full-stack przy użyciu React, Next.js, Node.js i C#, dostarczając stabilne i responsywne interfejsy. Zoptymalizowano ładowanie obrazów oraz procesy AI, co poprawiło szybkość ładowania stron o 20% i podwoiło wydajność odpowiedzi AI (100% szybciej). Przebudowano logikę wyszukiwania, zwiększając zasięg grupy docelowej strony o około 40%.",
+          "metrics": [
+            "20%",
+            "100% szybciej",
+            "40%"
+          ]
+        }
+      ]
+    },
+    "Projects": {
+      "title": "Wybrane Projekty",
+      "subtitle": "03 / PROJEKTY",
+      "githubSource": "Kod Źródłowy",
+      "liveDemo": "Wersja Live",
+      "items": [
+        {
+          "id": "your-love",
+          "title": "Your Love",
+          "type": "Projekt Dyplomowy Full-Stack",
+          "description": "Aplikacja zaprojektowana do poprawy komunikacji i wzmocnienia relacji między partnerami, szczególnie dla tych w związkach na odległość lub spędzających ze sobą mało czasu. Projekt rozwiązuje problem nieporozumień poprzez stworzenie prywatnej przestrzeni cyfrowej dla pary.",
+          "features": [
+            "Interaktywność: śledzenie nastroju, samopoczucia partnera oraz wspólna \"Wish list\".",
+            "Czas rzeczywisty: WebSockets dla bezproblemowej synchronizacji na żywo.",
+            "Bezpieczeństwo: logowanie przez Google i Discord OAuth."
+          ]
+        },
+        {
+          "id": "movie-ticket-booking",
+          "title": "Platforma Rezerwacji Biletów",
+          "type": "Projekt Komercyjny / Portfolio",
+          "description": "Nowoczesna alternatywa dla przestarzałych platform kinowych z nielogicznym UX. Główny cel: sprawić, aby ścieżka użytkownika od wyszukania filmu do zdobycia biletu była jak najszybsza, przyjemna i intuicyjna.",
+          "features": [
+            "Przemyślany UX/UI: dynamiczny routing i natychmiastowa nawigacja bez przeładowywania.",
+            "Niezawodność: walidacja formularzy po stronie klienta i serwera.",
+            "Architektura o wysokiej wydajności: mikrousługi w C#, RabbitMQ i Redis do obsługi dużych obciążeń."
+          ]
+        },
+        {
+          "id": "game-hub",
+          "title": "Game HUB",
+          "type": "Aplikacja Full-Stack (Wydanie V1.0)",
+          "description": "Game HUB to platforma społecznościowa dla graczy stworzona, aby rozgrywka w kooperacji była jeszcze bardziej dynamiczna i zabawna. Projekt rozwiązuje problem synchronizacji czasu między graczami i dodaje element gamifikacji do zwykłych sesji gier.",
+          "features": [
+            "Synchronizacja harmonogramu: Interaktywny kalendarz pozwalający sprawdzić dostępność innych graczy.",
+            "Gamifikacja lobby: Przyznawanie unikalnych nagród po grze (\"Najlepszy Snajper\", \"MVP\", \"Żartowniś\").",
+            "Ekosystem Discord: Autoryzacja przez Discord. Przyszła integracja z botami w celu automatycznego tworzenia sesji i przypomnień."
+          ]
+        }
+      ]
+    },
+    "EducationLanguages": {
+      "educationTitle": "Edukacja",
+      "languagesTitle": "Języki",
+      "subtitle": "04 / EDUKACJA I JĘZYKI",
+      "education": {
+        "university": "Wyższa Szkoła Przedsiębiorczości i Administracji (WSPA), Lublin",
+        "degree": "Inżynier Informatyki",
+        "dates": "Paź 2022 - Sie 2026",
+        "gpaLabel": "Średnia Ocen:",
+        "gpa": "4.71"
+      },
+      "languagesItems": [
+        {
+          "name": "Ukraiński",
+          "level": "Ojczysty"
+        },
+        {
+          "name": "Angielski",
+          "level": "Średniozaawansowany"
+        },
+        {
+          "name": "Polski",
+          "level": "Zaawansowany"
+        }
+      ]
+    },
+    "Contact": {
+      "title": "Kontakt",
+      "cta": "Stwórzmy razem coś niesamowitego",
+      "description": "Praca na pełen etat, projekt na zlecenie czy po prostu dyskusja techniczna, po prostu do mnie napisz.",
+      "rights": "Wszelkie prawa zastrzeżone."
+    }
+  },
+  "Business": {
+    "Hero": {
+      "title": "Rozwiązania webowe, które pracują dla Twojego biznesu",
+      "subtitle": "Tworzę szybkie landing page, sklepy internetowe i systemy CRM, które automatyzują sprzedaż i generują leady 24/7.",
+      "cta": {
+        "text": "Zapytaj o projekt"
+      },
+      "availableBadge": "Dostępny do nowych projektów",
+      "whatIOffer": "Co proponuję"
+    },
+    "Services": {
+      "title": "Usługi",
+      "items": [
+        {
+          "id": "landing",
+          "title": "Landing Page (Strona typu one-page)",
+          "forWho": "Usługi, eksperci, lokalne firmy. Twój menedżer online 24/7.",
+          "features": "Perfekcyjna wersja mobilna (90% ruchu), błyskawiczne ładowanie, logiczna struktura, zapytania na Telegram/Email.",
+          "price": "od $100",
+          "forWhoLabel": "Dla kogo:",
+          "featuresLabel": "Cechy:"
+        },
+        {
+          "id": "ecommerce",
+          "title": "Sklep Internetowy (E-commerce)",
+          "forWho": "Sprzedaż produktów, dóbr cyfrowych i kursów online.",
+          "features": "Wygodny katalog z filtrami, bezpieczny zakup bez zbędnych kroków, integracja z bramkami płatności (LiqPay, Stripe), przyjazny panel administracyjny.",
+          "price": "od $300",
+          "forWhoLabel": "Dla kogo:",
+          "featuresLabel": "Cechy:"
+        },
+        {
+          "id": "custom",
+          "title": "Rozwiązania Dedykowane (Złożone aplikacje webowe)",
+          "forWho": "Niestandardowe modele biznesowe i automatyzacja procesów.",
+          "features": "Systemy rezerwacji, panele użytkownika, CRM, integracje API i bezpieczeństwo danych.",
+          "price": "od $500",
+          "forWhoLabel": "Dla kogo:",
+          "featuresLabel": "Cechy:"
+        }
+      ],
+      "priceLabel": "Koszt:",
+      "disclaimer": "Ostateczna cena jest ustalana po omówieniu wszystkich szczegółów i funkcjonalności."
+    },
+    "Workflow": {
+      "title": "Proces tworzenia",
+      "stepLabel": "Krok",
+      "items": [
+        {
+          "step": 1,
+          "title": "Odprawa i Wycena",
+          "description": "Krótka rozmowa. Badam Twoje zadanie, proponuję rozwiązania oraz określamy budżet i terminy."
+        },
+        {
+          "step": 2,
+          "title": "Prototyp i Projekt graficzny",
+          "description": "Określam strukturę i wygląd wizualny. Widzisz projekt docelowy przed napisaniem kodu."
+        },
+        {
+          "step": 3,
+          "title": "Rozwój i Testy",
+          "description": "Pisanie czystego kodu, konfiguracja środowiska, płatności, optymalizacja oraz testy na wszystkich platformach."
+        },
+        {
+          "step": 4,
+          "title": "Wdrożenie i Wsparcie",
+          "description": "Zapewniam stabilne działanie we właściwej domenie, uczę jak z niego korzystać oraz w razie potrzeby zapewniam pełne wsparcie."
+        }
+      ]
+    },
+    "CaseStudies": {
+      "title": "Przypadki Użycia (Case Studies)",
+      "links": {
+        "live": "Strona na żywo"
+      },
+      "items": [
+        {
+          "id": "booking",
+          "title": "MovieTicket – platforma z biletami online",
+          "task": "Stworzyć usługę pozwalającą na szybkie znalezienie wydarzenia i zakup biletu bez zacięć systemu.",
+          "solution": "Intuicyjny interfejs, zakup w 3 krokach i system oparty o RabbitMQ, odporny na wysokie natężenie ruchu.",
+          "tags": [
+            "Projekt UI/UX",
+            "Płatności Online",
+            "Wysoka Prędkość",
+            "Automatyzacja"
+          ]
+        },
+        {
+          "id": "community",
+          "title": "GameHUB – platforma społecznościowa",
+          "task": "Dostarczyć narzędzie do planowania i organizowania wspólnej rozrywki.",
+          "solution": "Interaktywny kalendarz dostępności, system gamifikacji ze wspaniałymi rolami od razu po zalogowaniu.",
+          "tags": [
+            "Konta Użytkownika",
+            "Gamifikacja",
+            "Integracja API",
+            "Bazy Danych"
+          ]
+        }
+      ],
+      "taskLabel": "Zadanie:",
+      "solutionLabel": "Rozwiązanie:"
+    },
+    "FreeAudit": {
+      "title": "Gotowy do skalowania biznesu?",
+      "description": "Od błędu do funkcjonalnego rozwiązania, pomogę na wiele sposobów skonsultować co poprawić na stronie, albo jak ją zacząć.",
+      "cta": {
+        "text": "Odbierz audyt"
+      },
+      "subtitle": "04 / BEZPŁATNY AUDYT I KONTAKT",
+      "contactTitle": "Skontaktuj się ze mną:",
+      "telegramText": "Napisz na Telegramie"
+    }
+  }
+}
